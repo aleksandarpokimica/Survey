@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "163195096057",
+    "firebase_url": "https://survey-6d90d.firebaseio.com",
+    "project_id": "survey-6d90d",
+    "storage_bucket": "survey-6d90d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163195096057:android:b5d75907de594a2d",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163195096057-pudggh9dk40hqb3qmq9hrrssk33g4fic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Ty0yN8GUmmVlEatdxbptH4jKZseebmU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163195096057-pudggh9dk40hqb3qmq9hrrssk33g4fic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163195096057:android:8d2369384bd9d08f",
+        "android_client_info": {
+          "package_name": "com.aleksandarpokimica.survey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163195096057-pudggh9dk40hqb3qmq9hrrssk33g4fic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Ty0yN8GUmmVlEatdxbptH4jKZseebmU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163195096057-pudggh9dk40hqb3qmq9hrrssk33g4fic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

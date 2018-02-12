@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tabs2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aleksandarpokimica.survey.ActivityTabs">
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvQuestion1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="64dp"
+                        android:gravity="center"
+                        android:text="Loading question..."
+                        android:textSize="18dp"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvQuestion"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="21dp">
+
+                        <RadioButton
+                            android:id="@+id/rbAns11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvQuestion"
+                            android:layout_centerHorizontal="true"
+                            android:text="Yes"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns1"
+                            android:layout_alignStart="@+id/rbAns1"
+                            android:layout_below="@+id/rbAns1"
+                            android:text="No"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns2"
+                            android:layout_alignStart="@+id/rbAns2"
+                            android:layout_below="@+id/rbAns2"
+                            android:text="Stupid question"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rbAns3"
+                            android:layout_centerHorizontal="true"
+                            android:text="Abusive/Offensive"/>
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/bSubmit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Submit"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvQuestion2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="64dp"
+                        android:gravity="center"
+                        android:text="Loading question..."
+                        android:textSize="18dp"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvQuestion"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="21dp">
+
+                        <RadioButton
+                            android:id="@+id/rbAns21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvQuestion"
+                            android:layout_centerHorizontal="true"
+                            android:text="Yes"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns1"
+                            android:layout_alignStart="@+id/rbAns1"
+                            android:layout_below="@+id/rbAns1"
+                            android:text="No"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns2"
+                            android:layout_alignStart="@+id/rbAns2"
+                            android:layout_below="@+id/rbAns2"
+                            android:text="Stupid question"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rbAns3"
+                            android:layout_centerHorizontal="true"
+                            android:text="Abusive/Offensive"/>
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/bSubmit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Submit"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvQuestion3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="64dp"
+                        android:gravity="center"
+                        android:text="Loading question..."
+                        android:textSize="18dp"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvQuestion"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="21dp">
+
+                        <RadioButton
+                            android:id="@+id/rbAns31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvQuestion"
+                            android:layout_centerHorizontal="true"
+                            android:text="Yes"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns1"
+                            android:layout_alignStart="@+id/rbAns1"
+                            android:layout_below="@+id/rbAns1"
+                            android:text="No"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns2"
+                            android:layout_alignStart="@+id/rbAns2"
+                            android:layout_below="@+id/rbAns2"
+                            android:text="Stupid question"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rbAns3"
+                            android:layout_centerHorizontal="true"
+                            android:text="Abusive/Offensive"/>
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/bSubmit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Submit"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tvQuestion4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="64dp"
+                        android:gravity="center"
+                        android:text="Loading question..."
+                        android:textSize="18dp"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvQuestion"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="21dp">
+
+                        <RadioButton
+                            android:id="@+id/rbAns41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvQuestion"
+                            android:layout_centerHorizontal="true"
+                            android:text="Yes"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns1"
+                            android:layout_alignStart="@+id/rbAns1"
+                            android:layout_below="@+id/rbAns1"
+                            android:text="No"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns2"
+                            android:layout_alignStart="@+id/rbAns2"
+                            android:layout_below="@+id/rbAns2"
+                            android:text="Stupid question"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rbAns3"
+                            android:layout_centerHorizontal="true"
+                            android:text="Abusive/Offensive"/>
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/bSubmit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Submit"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvQuestion5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="64dp"
+                        android:gravity="center"
+                        android:text="Loading question..."
+                        android:textSize="18dp"/>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvQuestion"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="21dp">
+
+                        <RadioButton
+                            android:id="@+id/rbAns51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvQuestion"
+                            android:layout_centerHorizontal="true"
+                            android:text="Yes"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns1"
+                            android:layout_alignStart="@+id/rbAns1"
+                            android:layout_below="@+id/rbAns1"
+                            android:text="No"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@+id/rbAns2"
+                            android:layout_alignStart="@+id/rbAns2"
+                            android:layout_below="@+id/rbAns2"
+                            android:text="Stupid question"/>
+
+                        <RadioButton
+                            android:id="@+id/rbAns54"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rbAns3"
+                            android:layout_centerHorizontal="true"
+                            android:text="Abusive/Offensive"/>
+
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/bSubmit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Submit"
+                        />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </TabHost>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

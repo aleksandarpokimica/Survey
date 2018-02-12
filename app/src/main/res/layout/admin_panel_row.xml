@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/TableLayout1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aleksandarpokimica.survey.AdminPanelActivity">
+
+    <TableRow
+        android:id="@+id/TableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etQuestionAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:typeface="monospace"
+            android:height="40sp"
+            android:textSize="8dp"/>
+        <Button
+            android:id="@+id/bSave"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="7dp"/>
+
+        <Button
+            android:id="@+id/bDelete"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="7dp"/>
+
+    </TableRow>
+
+</TableLayout>

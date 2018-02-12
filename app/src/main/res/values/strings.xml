@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Survey</string>
+    <string name="welcome_msg">Welcome!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="submit_question">Submit Question</string>
+    <string name="admin_panel">Admin Panel</string>
+</resources>
